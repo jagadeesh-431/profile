@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.left, .right {
+    flex: 1 1 300px; /* grow/shrink with min width */
+}
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: rgb(213, 206, 206);
+        color: white;
+    }
+    
+
+nav{
+    font-family: 'Poppins', sans-serif;    padding:10px;
+color: black;
+}
+
+ul,li,h2{
+    
+    display: inline;
+    margin:15px;
+    cursor: pointer;
+}
+li:hover{
+    color:orangered;
+}
+ul{
+    padding-left: 48%;
+}
+.beleves{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color:white;   
+    height: 100px;
+    text-align: center;
+    padding:150px;   
+}
+.one{
+    margin-right:58%;
+    font-size:25px;
+}
+.big{
+    font-size:50px;
+}
+.clr{
+    color:orangered
+}
+.button{
+
+    padding:10px 20px;
+    background-color: orangered;
+    color:white;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 70px; 
+}
+
+#container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin:100px;
+    padding:40px;
+}
+
+#container article {
+    border-radius: 50px;
+    width: 800px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+#container article h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#container article p {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#backround {
+    background-image: url('img/bestbg.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 58vh;
+    width: 90vw;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    
+    
+}
+
+.ttx{
+    text-align: center;
+    color:black
+}
+
+.xxt{
+    padding: 10px;;
+    justify-content: space-evenly;
+    display: flex;
+}
+button:hover{
+    color:black;
+    cursor: pointer;
+}
